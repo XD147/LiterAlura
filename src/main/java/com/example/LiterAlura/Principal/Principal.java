@@ -76,7 +76,7 @@ public class Principal {
     }
 
     private DatosLibro getDatosLibro() {
-        System.out.println("Escribe el nombre de la serie que deseas buscar");
+        System.out.println("Escribe el nombre del libro que deseas buscar: ");
         var nombreSerie = teclado.nextLine();
         var json = consumoApi.obtenerDatos(URL_BASE + nombreSerie.replace(" ", "%20"));
         System.out.println(json);
