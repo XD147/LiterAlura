@@ -15,7 +15,7 @@ Aplicación desarrollada en **Java** que permite buscar, almacenar y consultar l
 
 ## 🛠️ Tecnologías Utilizadas
 
-- **Java 17**
+- **Java 25**
 - **Spring Boot**
 - **Spring Data JPA**
 - **PostgreSQL**
